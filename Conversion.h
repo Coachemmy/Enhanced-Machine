@@ -5,8 +5,6 @@
 #include <stdexcept>
 #include <string>
 
-//using namespace std;
-
 class Conversion
 {
 public:

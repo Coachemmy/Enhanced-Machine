@@ -7,13 +7,11 @@
 #include <map>
 #include <stdexcept>
 
-using namespace std;
-
 class Evaluator
 {
 public:
-    static double evaluate(const vector<string> &tokens, map<string, double>& variables);
-    static void processAssignment(const string &line, map<string, double> &variables); 
+    static double evaluate(const std::vector<std::string> &tokens, std::map<std::string, double>& variables);
+    static void processAssignment(const std::string &line, std::map<std::string, double> &variables); 
 };
 
 #endif

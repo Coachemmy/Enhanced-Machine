@@ -3,6 +3,7 @@
 #include <sstream>
 #include "Evaluator.h"
 #include "Tokenizer.h"
+using namespace std;
 
 int main()
 {

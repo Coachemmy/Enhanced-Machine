@@ -2,6 +2,7 @@
 #include "MathOperations.h"
 #include "Conversion.h"
 #include "Tokenizer.h"
+using namespace std;
 
 double Evaluator::evaluate(const vector<string> &tokens, map<string, double> &variables)
 {

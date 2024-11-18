@@ -1,5 +1,6 @@
 #include "tokenizer.h"
 #include "mathOperations.h"
+using namespace std;
 
 vector<string> Tokenizer::tokenize(const string &expression)
 {

@@ -1,4 +1,5 @@
 #include "MathOperations.h"
+using namespace std;
 
 bool MathOperations::isValidOperator(char op)
 {
